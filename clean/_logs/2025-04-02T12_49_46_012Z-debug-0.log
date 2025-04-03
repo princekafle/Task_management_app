@@ -1,0 +1,1194 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\Dell\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\task manager app\task-management-app\.npmrc
+5 silly config load:file:C:\Users\Dell\.npmrc
+6 silly config load:file:C:\Users\Dell\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i react-toastify
+8 verbose argv "i" "react-toastify"
+9 verbose logfile logs-max:10 dir:E:\task manager app\task-management-app\clean\_logs\2025-04-02T12_49_46_012Z-
+10 verbose logfile E:\task manager app\task-management-app\clean\_logs\2025-04-02T12_49_46_012Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest react-toastify@^9.1.1
+16 silly packumentCache full:https://registry.npmjs.org/react-toastify cache-miss
+17 http cache https://registry.npmjs.org/react-toastify 220ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/react-toastify set size:717317 disposed:false
+19 silly fetch manifest react@^19.0.0
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http cache https://registry.npmjs.org/react 23ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:5566651 disposed:false
+23 silly fetch manifest react-dom@^19.0.0
+24 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react-dom 250ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+27 silly placeDep ROOT react-toastify@9.1.3 OK for: task-management-app@0.1.0 want: ^9.1.1
+28 silly fetch manifest clsx@^1.1.1
+29 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/clsx 114ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/clsx set size:undefined disposed:false
+32 silly placeDep ROOT clsx@1.2.1 OK for: react-toastify@9.1.3 want: ^1.1.1
+33 silly reify moves {}
+34 silly audit bulk request {
+34 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+34 silly audit   '@aws-crypto/sha256-browser': [ '5.2.0' ],
+34 silly audit   '@smithy/is-array-buffer': [ '2.2.0', '4.0.0' ],
+34 silly audit   '@smithy/util-buffer-from': [ '2.2.0', '4.0.0' ],
+34 silly audit   '@smithy/util-utf8': [ '2.3.0', '4.0.0' ],
+34 silly audit   '@aws-crypto/sha256-js': [ '5.2.0' ],
+34 silly audit   '@aws-crypto/supports-web-crypto': [ '5.2.0' ],
+34 silly audit   '@aws-crypto/util': [ '5.2.0' ],
+34 silly audit   '@aws-sdk/client-cognito-identity': [ '3.777.0' ],
+34 silly audit   '@aws-sdk/client-sso': [ '3.777.0' ],
+34 silly audit   '@aws-sdk/core': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/credential-provider-cognito-identity': [ '3.777.0' ],
+34 silly audit   '@aws-sdk/credential-provider-env': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/credential-provider-http': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/credential-provider-ini': [ '3.777.0' ],
+34 silly audit   '@aws-sdk/credential-provider-node': [ '3.777.0' ],
+34 silly audit   '@aws-sdk/credential-provider-process': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/credential-provider-sso': [ '3.777.0' ],
+34 silly audit   '@aws-sdk/credential-provider-web-identity': [ '3.777.0' ],
+34 silly audit   '@aws-sdk/credential-providers': [ '3.778.0' ],
+34 silly audit   '@aws-sdk/middleware-host-header': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/middleware-logger': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/middleware-recursion-detection': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/middleware-user-agent': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/nested-clients': [ '3.777.0' ],
+34 silly audit   '@aws-sdk/region-config-resolver': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/token-providers': [ '3.777.0' ],
+34 silly audit   '@aws-sdk/types': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/util-endpoints': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/util-locate-window': [ '3.723.0' ],
+34 silly audit   '@aws-sdk/util-user-agent-browser': [ '3.775.0' ],
+34 silly audit   '@aws-sdk/util-user-agent-node': [ '3.775.0' ],
+34 silly audit   '@emnapi/core': [ '1.4.0' ],
+34 silly audit   '@emnapi/runtime': [ '1.4.0' ],
+34 silly audit   '@emnapi/wasi-threads': [ '1.0.1' ],
+34 silly audit   '@eslint-community/eslint-utils': [ '4.5.1' ],
+34 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.0' ],
+34 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+34 silly audit   '@eslint/config-array': [ '0.19.2' ],
+34 silly audit   '@eslint/config-helpers': [ '0.2.1' ],
+34 silly audit   '@eslint/core': [ '0.12.0', '0.13.0' ],
+34 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+34 silly audit   '@eslint/js': [ '9.23.0' ],
+34 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+34 silly audit   '@eslint/plugin-kit': [ '0.2.8' ],
+34 silly audit   '@fastify/busboy': [ '1.2.1' ],
+34 silly audit   '@firebase/app-types': [ '0.9.3', '0.8.1' ],
+34 silly audit   '@firebase/auth-interop-types': [ '0.1.7' ],
+34 silly audit   '@firebase/component': [ '0.5.21' ],
+34 silly audit   '@firebase/database': [ '0.13.10' ],
+34 silly audit   '@firebase/database-compat': [ '0.2.10' ],
+34 silly audit   '@firebase/database-types': [ '0.9.17' ],
+34 silly audit   '@firebase/logger': [ '0.3.4' ],
+34 silly audit   '@firebase/util': [ '1.7.3' ],
+34 silly audit   '@google-cloud/firestore': [ '4.15.1' ],
+34 silly audit   '@google-cloud/paginator': [ '3.0.7' ],
+34 silly audit   '@google-cloud/projectify': [ '2.1.1' ],
+34 silly audit   '@google-cloud/promisify': [ '2.0.4' ],
+34 silly audit   '@google-cloud/storage': [ '5.20.5' ],
+34 silly audit   '@grpc/grpc-js': [ '1.6.12' ],
+34 silly audit   '@grpc/proto-loader': [ '0.7.13', '0.6.13' ],
+34 silly audit   cliui: [ '8.0.1', '7.0.4' ],
+34 silly audit   long: [ '5.3.1', '4.0.0' ],
+34 silly audit   protobufjs: [ '7.4.0', '6.11.3', '6.11.4' ],
+34 silly audit   yargs: [ '17.7.2', '16.2.0' ],
+34 silly audit   'yargs-parser': [ '21.1.1', '20.2.9' ],
+34 silly audit   '@humanfs/core': [ '0.19.1' ],
+34 silly audit   '@humanfs/node': [ '0.16.6' ],
+34 silly audit   '@humanwhocodes/retry': [ '0.3.1', '0.4.2' ],
+34 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+34 silly audit   '@img/sharp-darwin-arm64': [ '0.33.5' ],
+34 silly audit   '@img/sharp-darwin-x64': [ '0.33.5' ],
+34 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.0.4' ],
+34 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.0.4' ],
+34 silly audit   '@img/sharp-libvips-linux-arm': [ '1.0.5' ],
+34 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.0.4' ],
+34 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.0.4' ],
+34 silly audit   '@img/sharp-libvips-linux-x64': [ '1.0.4' ],
+34 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.0.4' ],
+34 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.0.4' ],
+34 silly audit   '@img/sharp-linux-arm': [ '0.33.5' ],
+34 silly audit   '@img/sharp-linux-arm64': [ '0.33.5' ],
+34 silly audit   '@img/sharp-linux-s390x': [ '0.33.5' ],
+34 silly audit   '@img/sharp-linux-x64': [ '0.33.5' ],
+34 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.33.5' ],
+34 silly audit   '@img/sharp-linuxmusl-x64': [ '0.33.5' ],
+34 silly audit   '@img/sharp-wasm32': [ '0.33.5' ],
+34 silly audit   '@img/sharp-win32-ia32': [ '0.33.5' ],
+34 silly audit   '@img/sharp-win32-x64': [ '0.33.5' ],
+34 silly audit   '@mapbox/node-pre-gyp': [ '1.0.11' ],
+34 silly audit   '@mongodb-js/saslprep': [ '1.2.1' ],
+34 silly audit   '@napi-rs/wasm-runtime': [ '0.2.8' ],
+34 silly audit   '@next/env': [ '15.2.4' ],
+34 silly audit   '@next/eslint-plugin-next': [ '15.2.4' ],
+34 silly audit   '@next/swc-darwin-arm64': [ '15.2.4' ],
+34 silly audit   '@next/swc-darwin-x64': [ '15.2.4' ],
+34 silly audit   '@next/swc-linux-arm64-gnu': [ '15.2.4' ],
+34 silly audit   '@next/swc-linux-arm64-musl': [ '15.2.4' ],
+34 silly audit   '@next/swc-linux-x64-gnu': [ '15.2.4' ],
+34 silly audit   '@next/swc-linux-x64-musl': [ '15.2.4' ],
+34 silly audit   '@next/swc-win32-arm64-msvc': [ '15.2.4' ],
+34 silly audit   '@next/swc-win32-x64-msvc': [ '15.2.4' ],
+34 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+34 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+34 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+34 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+34 silly audit   '@panva/asn1.js': [ '1.0.0' ],
+34 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+34 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+34 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+34 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+34 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+34 silly audit   '@protobufjs/float': [ '1.0.2' ],
+34 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+34 silly audit   '@protobufjs/path': [ '1.1.2' ],
+34 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+34 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+34 silly audit   '@rtsao/scc': [ '1.1.0' ],
+34 silly audit   '@rushstack/eslint-patch': [ '1.11.0' ],
+34 silly audit   '@smithy/abort-controller': [ '4.0.2' ],
+34 silly audit   '@smithy/config-resolver': [ '4.1.0' ],
+34 silly audit   '@smithy/core': [ '3.2.0' ],
+34 silly audit   '@smithy/credential-provider-imds': [ '4.0.2' ],
+34 silly audit   '@smithy/fetch-http-handler': [ '5.0.2' ],
+34 silly audit   '@smithy/hash-node': [ '4.0.2' ],
+34 silly audit   '@smithy/invalid-dependency': [ '4.0.2' ],
+34 silly audit   '@smithy/middleware-content-length': [ '4.0.2' ],
+34 silly audit   '@smithy/middleware-endpoint': [ '4.1.0' ],
+34 silly audit   '@smithy/middleware-retry': [ '4.1.0' ],
+34 silly audit   uuid: [ '9.0.1', '8.3.2', '8.0.0' ],
+34 silly audit   '@smithy/middleware-serde': [ '4.0.3' ],
+34 silly audit   '@smithy/middleware-stack': [ '4.0.2' ],
+34 silly audit   '@smithy/node-config-provider': [ '4.0.2' ],
+34 silly audit   '@smithy/node-http-handler': [ '4.0.4' ],
+34 silly audit   '@smithy/property-provider': [ '4.0.2' ],
+34 silly audit   '@smithy/protocol-http': [ '5.1.0' ],
+34 silly audit   '@smithy/querystring-builder': [ '4.0.2' ],
+34 silly audit   '@smithy/querystring-parser': [ '4.0.2' ],
+34 silly audit   '@smithy/service-error-classification': [ '4.0.2' ],
+34 silly audit   '@smithy/shared-ini-file-loader': [ '4.0.2' ],
+34 silly audit   '@smithy/signature-v4': [ '5.0.2' ],
+34 silly audit   '@smithy/smithy-client': [ '4.2.0' ],
+34 silly audit   '@smithy/types': [ '4.2.0' ],
+34 silly audit   '@smithy/url-parser': [ '4.0.2' ],
+34 silly audit   '@smithy/util-base64': [ '4.0.0' ],
+34 silly audit   '@smithy/util-body-length-browser': [ '4.0.0' ],
+34 silly audit   '@smithy/util-body-length-node': [ '4.0.0' ],
+34 silly audit   '@smithy/util-config-provider': [ '4.0.0' ],
+34 silly audit   '@smithy/util-defaults-mode-browser': [ '4.0.8' ],
+34 silly audit   '@smithy/util-defaults-mode-node': [ '4.0.8' ],
+34 silly audit   '@smithy/util-endpoints': [ '3.0.2' ],
+34 silly audit   '@smithy/util-hex-encoding': [ '4.0.0' ],
+34 silly audit   '@smithy/util-middleware': [ '4.0.2' ],
+34 silly audit   '@smithy/util-retry': [ '4.0.2' ],
+34 silly audit   '@smithy/util-stream': [ '4.2.0' ],
+34 silly audit   '@smithy/util-uri-escape': [ '4.0.0' ],
+34 silly audit   '@swc/counter': [ '0.1.3' ],
+34 silly audit   '@swc/helpers': [ '0.5.15' ],
+34 silly audit   '@tailwindcss/node': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.0' ],
+34 silly audit   '@tailwindcss/postcss': [ '4.1.0' ],
+34 silly audit   '@tootallnate/once': [ '2.0.0' ],
+34 silly audit   '@tybys/wasm-util': [ '0.9.0' ],
+34 silly audit   '@types/body-parser': [ '1.19.5' ],
+34 silly audit   '@types/connect': [ '3.4.38' ],
+34 silly audit   '@types/estree': [ '1.0.7' ],
+34 silly audit   '@types/express': [ '4.17.21' ],
+34 silly audit   '@types/express-serve-static-core': [ '4.19.6' ],
+34 silly audit   '@types/http-errors': [ '2.0.4' ],
+34 silly audit   '@types/json-schema': [ '7.0.15' ],
+34 silly audit   '@types/json5': [ '0.0.29' ],
+34 silly audit   '@types/jsonwebtoken': [ '8.5.9' ],
+34 silly audit   '@types/long': [ '4.0.2' ],
+34 silly audit   '@types/mime': [ '1.3.5' ],
+34 silly audit   '@types/node': [ '22.13.17' ],
+34 silly audit   '@types/qs': [ '6.9.18' ],
+34 silly audit   '@types/range-parser': [ '1.2.7' ],
+34 silly audit   '@types/send': [ '0.17.4' ],
+34 silly audit   '@types/serve-static': [ '1.15.7' ],
+34 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+34 silly audit   '@types/whatwg-url': [ '8.2.2' ],
+34 silly audit   '@typescript-eslint/eslint-plugin': [ '8.29.0' ],
+34 silly audit   '@typescript-eslint/parser': [ '8.29.0' ],
+34 silly audit   '@typescript-eslint/scope-manager': [ '8.29.0' ],
+34 silly audit   '@typescript-eslint/type-utils': [ '8.29.0' ],
+34 silly audit   '@typescript-eslint/types': [ '8.29.0' ],
+34 silly audit   '@typescript-eslint/typescript-estree': [ '8.29.0' ],
+34 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+34 silly audit   'fast-glob': [ '3.3.3', '3.3.1' ],
+34 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+34 silly audit   minimatch: [ '9.0.5', '5.1.6', '3.1.2' ],
+34 silly audit   '@typescript-eslint/utils': [ '8.29.0' ],
+34 silly audit   '@typescript-eslint/visitor-keys': [ '8.29.0' ],
+34 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.3.3' ],
+34 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.3.3' ],
+34 silly audit   abbrev: [ '1.1.1' ],
+34 silly audit   'abort-controller': [ '3.0.0' ],
+34 silly audit   accepts: [ '1.3.8' ],
+34 silly audit   acorn: [ '8.14.1' ],
+34 silly audit   'acorn-jsx': [ '5.3.2' ],
+34 silly audit   'agent-base': [ '6.0.2' ],
+34 silly audit   ajv: [ '6.12.6' ],
+34 silly audit   'ansi-regex': [ '5.0.1' ],
+34 silly audit   'ansi-styles': [ '4.3.0' ],
+34 silly audit   anymatch: [ '3.1.3' ],
+34 silly audit   aproba: [ '2.0.0' ],
+34 silly audit   'are-we-there-yet': [ '2.0.0' ],
+34 silly audit   argparse: [ '2.0.1' ],
+34 silly audit   'aria-query': [ '5.3.2' ],
+34 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+34 silly audit   'array-flatten': [ '1.1.1' ],
+34 silly audit   'array-includes': [ '3.1.8' ],
+34 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+34 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+34 silly audit   'array.prototype.flat': [ '1.3.3' ],
+34 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+34 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+34 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+34 silly audit   arrify: [ '2.0.1' ],
+34 silly audit   'ast-types-flow': [ '0.0.8' ],
+34 silly audit   async: [ '3.2.6' ],
+34 silly audit   'async-function': [ '1.0.0' ],
+34 silly audit   'async-retry': [ '1.3.3' ],
+34 silly audit   'available-typed-arrays': [ '1.0.7' ],
+34 silly audit   'aws-sdk': [ '2.1692.0' ],
+34 silly audit   'axe-core': [ '4.10.3' ],
+34 silly audit   'axobject-query': [ '4.1.0' ],
+34 silly audit   'balanced-match': [ '1.0.2' ],
+34 silly audit   'base64-js': [ '1.5.1' ],
+34 silly audit   base64url: [ '3.0.1' ],
+34 silly audit   bcrypt: [ '5.1.1' ],
+34 silly audit   'bignumber.js': [ '9.1.2' ],
+34 silly audit   'binary-extensions': [ '2.3.0' ],
+34 silly audit   'body-parser': [ '1.20.3' ],
+34 silly audit   debug: [ '2.6.9', '4.4.0', '3.2.7' ],
+34 silly audit   ms: [ '2.0.0', '2.1.3' ],
+34 silly audit   bowser: [ '2.11.0' ],
+34 silly audit   braces: [ '3.0.3' ],
+34 silly audit   bson: [ '4.7.2' ],
+34 silly audit   buffer: [ '5.7.1', '4.9.2' ],
+34 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+34 silly audit   isarray: [ '1.0.0', '2.0.5' ],
+34 silly audit   busboy: [ '1.6.0' ],
+34 silly audit   bytes: [ '3.1.2' ],
+34 silly audit   'call-bind': [ '1.0.8' ],
+34 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+34 silly audit   'call-bound': [ '1.0.4' ],
+34 silly audit   callsites: [ '3.1.0' ],
+34 silly audit   'caniuse-lite': [ '1.0.30001707' ],
+34 silly audit   chalk: [ '4.1.2' ],
+34 silly audit   chokidar: [ '3.6.0' ],
+34 silly audit   chownr: [ '2.0.0' ],
+34 silly audit   'client-only': [ '0.0.1' ],
+34 silly audit   color: [ '4.2.3' ],
+34 silly audit   'color-convert': [ '2.0.1' ],
+34 silly audit   'color-name': [ '1.1.4' ],
+34 silly audit   'color-string': [ '1.9.1' ],
+34 silly audit   'color-support': [ '1.1.3' ],
+34 silly audit   compressible: [ '2.0.18' ],
+34 silly audit   'concat-map': [ '0.0.1' ],
+34 silly audit   configstore: [ '5.0.1' ],
+34 silly audit   'console-control-strings': [ '1.1.0' ],
+34 silly audit   'content-disposition': [ '0.5.4' ],
+34 silly audit   'content-type': [ '1.0.5' ],
+34 silly audit   cookie: [ '0.7.1', '0.7.2' ],
+34 silly audit   'cookie-signature': [ '1.0.6', '1.0.7' ],
+34 silly audit   cors: [ '2.8.5' ],
+34 silly audit   'cross-spawn': [ '7.0.6' ],
+34 silly audit   'crypto-random-string': [ '2.0.0' ],
+34 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+34 silly audit   'data-view-buffer': [ '1.0.2' ],
+34 silly audit   'data-view-byte-length': [ '1.0.2' ],
+34 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+34 silly audit   'deep-is': [ '0.1.4' ],
+34 silly audit   'define-data-property': [ '1.1.4' ],
+34 silly audit   'define-properties': [ '1.2.1' ],
+34 silly audit   delegates: [ '1.0.0' ],
+34 silly audit   depd: [ '2.0.0' ],
+34 silly audit   destroy: [ '1.2.0' ],
+34 silly audit   'detect-libc': [ '2.0.3' ],
+34 silly audit   doctrine: [ '2.1.0' ],
+34 silly audit   'dot-prop': [ '5.3.0' ],
+34 silly audit   dotenv: [ '16.4.7' ],
+34 silly audit   'dunder-proto': [ '1.0.1' ],
+34 silly audit   duplexify: [ '4.1.3' ],
+34 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+34 silly audit   'ee-first': [ '1.1.1' ],
+34 silly audit   ejs: [ '3.1.10' ],
+34 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+34 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+34 silly audit   'end-of-stream': [ '1.4.4' ],
+34 silly audit   'enhanced-resolve': [ '5.18.1' ],
+34 silly audit   ent: [ '2.2.2' ],
+34 silly audit   punycode: [ '1.4.1', '2.3.1', '1.3.2' ],
+34 silly audit   'es-abstract': [ '1.23.9' ],
+34 silly audit   'es-define-property': [ '1.0.1' ],
+34 silly audit   'es-errors': [ '1.3.0' ],
+34 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+34 silly audit   'es-object-atoms': [ '1.1.1' ],
+34 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+34 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+34 silly audit   'es-to-primitive': [ '1.3.0' ],
+34 silly audit   escalade: [ '3.2.0' ],
+34 silly audit   'escape-html': [ '1.0.3' ],
+34 silly audit   'escape-string-regexp': [ '4.0.0' ],
+34 silly audit   eslint: [ '9.23.0' ],
+34 silly audit   'eslint-config-next': [ '15.2.4' ],
+34 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+34 silly audit   'eslint-import-resolver-typescript': [ '3.10.0' ],
+34 silly audit   'eslint-module-utils': [ '2.12.0' ],
+34 silly audit   'eslint-plugin-import': [ '2.31.0' ],
+34 silly audit   semver: [ '6.3.1', '5.7.2', '7.7.1', '7.0.0' ],
+34 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+34 silly audit   'eslint-plugin-react': [ '7.37.4' ],
+34 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+34 silly audit   resolve: [ '2.0.0-next.5', '1.22.10' ],
+34 silly audit   'eslint-scope': [ '8.3.0' ],
+34 silly audit   espree: [ '10.3.0' ],
+34 silly audit   esquery: [ '1.6.0' ],
+34 silly audit   esrecurse: [ '4.3.0' ],
+34 silly audit   estraverse: [ '5.3.0' ],
+34 silly audit   esutils: [ '2.0.3' ],
+34 silly audit   etag: [ '1.8.1' ],
+34 silly audit   'event-target-shim': [ '5.0.1' ],
+34 silly audit   events: [ '1.1.1' ],
+34 silly audit   express: [ '4.21.2' ],
+34 silly audit   'express-session': [ '1.18.1' ],
+34 silly audit   extend: [ '3.0.2' ],
+34 silly audit   'fast-deep-equal': [ '3.1.3' ],
+34 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+34 silly audit   'fast-levenshtein': [ '2.0.6' ],
+34 silly audit   'fast-text-encoding': [ '1.0.6' ],
+34 silly audit   'fast-xml-parser': [ '4.4.1' ],
+34 silly audit   fastq: [ '1.19.1' ],
+34 silly audit   'faye-websocket': [ '0.11.4' ],
+34 silly audit   'file-entry-cache': [ '8.0.0' ],
+34 silly audit   filelist: [ '1.0.4' ],
+34 silly audit   'fill-range': [ '7.1.1' ],
+34 silly audit   finalhandler: [ '1.3.1' ],
+34 silly audit   'find-up': [ '5.0.0' ],
+34 silly audit   'firebase-admin': [ '10.3.0' ],
+34 silly audit   'flat-cache': [ '4.0.1' ],
+34 silly audit   flatted: [ '3.3.3' ],
+34 silly audit   'for-each': [ '0.3.5' ],
+34 silly audit   forwarded: [ '0.2.0' ],
+34 silly audit   fresh: [ '0.5.2' ],
+34 silly audit   'fs-minipass': [ '2.1.0' ],
+34 silly audit   minipass: [ '3.3.6', '5.0.0' ],
+34 silly audit   'fs.realpath': [ '1.0.0' ],
+34 silly audit   fsevents: [ '2.3.3' ],
+34 silly audit   'function-bind': [ '1.1.2' ],
+34 silly audit   'function.prototype.name': [ '1.1.8' ],
+34 silly audit   'functional-red-black-tree': [ '1.0.1' ],
+34 silly audit   'functions-have-names': [ '1.2.3' ],
+34 silly audit   gauge: [ '3.0.2' ],
+34 silly audit   gaxios: [ '4.3.3' ],
+34 silly audit   'gcp-metadata': [ '4.3.1' ],
+34 silly audit   'get-caller-file': [ '2.0.5' ],
+34 silly audit   'get-intrinsic': [ '1.3.0' ],
+34 silly audit   'get-proto': [ '1.0.1' ],
+34 silly audit   'get-symbol-description': [ '1.1.0' ],
+34 silly audit   'get-tsconfig': [ '4.10.0' ],
+34 silly audit   glob: [ '7.2.3' ],
+34 silly audit   globals: [ '14.0.0' ],
+34 silly audit   globalthis: [ '1.0.4' ],
+34 silly audit   'google-auth-library': [ '7.14.1' ],
+34 silly audit   'google-gax': [ '2.30.5' ],
+34 silly audit   'google-p12-pem': [ '3.1.4' ],
+34 silly audit   gopd: [ '1.2.0' ],
+34 silly audit   'graceful-fs': [ '4.2.11' ],
+34 silly audit   graphemer: [ '1.4.0' ],
+34 silly audit   gtoken: [ '5.3.2' ],
+34 silly audit   'has-bigints': [ '1.1.0' ],
+34 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+34 silly audit   'has-property-descriptors': [ '1.0.2' ],
+34 silly audit   'has-proto': [ '1.2.0' ],
+34 silly audit   'has-symbols': [ '1.1.0' ],
+34 silly audit   'has-tostringtag': [ '1.0.2' ],
+34 silly audit   'has-unicode': [ '2.0.1' ],
+34 silly audit   'hash-stream-validation': [ '0.2.4' ],
+34 silly audit   hasown: [ '2.0.2' ],
+34 silly audit   'http-errors': [ '2.0.0' ],
+34 silly audit   'http-parser-js': [ '0.5.9' ],
+34 silly audit   'http-proxy-agent': [ '5.0.0' ],
+34 silly audit   'https-proxy-agent': [ '5.0.1' ],
+34 silly audit   'iconv-lite': [ '0.4.24' ],
+34 silly audit   ieee754: [ '1.1.13' ],
+34 silly audit   ignore: [ '5.3.2' ],
+34 silly audit   'ignore-by-default': [ '1.0.1' ],
+34 silly audit   'import-fresh': [ '3.3.1' ],
+34 silly audit   imurmurhash: [ '0.1.4' ],
+34 silly audit   inflight: [ '1.0.6' ],
+34 silly audit   inherits: [ '2.0.4' ],
+34 silly audit   'internal-slot': [ '1.1.0' ],
+34 silly audit   'ip-address': [ '9.0.5' ],
+34 silly audit   'ipaddr.js': [ '1.9.1' ],
+34 silly audit   'is-arguments': [ '1.2.0' ],
+34 silly audit   'is-array-buffer': [ '3.0.5' ],
+34 silly audit   'is-arrayish': [ '0.3.2' ],
+34 silly audit   'is-async-function': [ '2.1.1' ],
+34 silly audit   'is-bigint': [ '1.1.0' ],
+34 silly audit   'is-binary-path': [ '2.1.0' ],
+34 silly audit   'is-boolean-object': [ '1.2.2' ],
+34 silly audit   'is-bun-module': [ '2.0.0' ],
+34 silly audit   'is-callable': [ '1.2.7' ],
+34 silly audit   'is-core-module': [ '2.16.1' ],
+34 silly audit   'is-data-view': [ '1.0.2' ],
+34 silly audit   'is-date-object': [ '1.1.0' ],
+34 silly audit   'is-extglob': [ '2.1.1' ],
+34 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+34 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+34 silly audit   'is-generator-function': [ '1.1.0' ],
+34 silly audit   'is-glob': [ '4.0.3' ],
+34 silly audit   'is-map': [ '2.0.3' ],
+34 silly audit   'is-number': [ '7.0.0' ],
+34 silly audit   'is-number-object': [ '1.1.1' ],
+34 silly audit   'is-obj': [ '2.0.0' ],
+34 silly audit   'is-regex': [ '1.2.1' ],
+34 silly audit   'is-set': [ '2.0.3' ],
+34 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+34 silly audit   'is-stream': [ '2.0.1' ],
+34 silly audit   'is-stream-ended': [ '0.1.4' ],
+34 silly audit   'is-string': [ '1.1.1' ],
+34 silly audit   'is-symbol': [ '1.1.1' ],
+34 silly audit   'is-typed-array': [ '1.1.15' ],
+34 silly audit   'is-typedarray': [ '1.0.0' ],
+34 silly audit   'is-weakmap': [ '2.0.2' ],
+34 silly audit   'is-weakref': [ '1.1.1' ],
+34 silly audit   'is-weakset': [ '2.0.4' ],
+34 silly audit   isexe: [ '2.0.0' ],
+34 silly audit   'iterator.prototype': [ '1.1.5' ],
+34 silly audit   jake: [ '10.9.2' ],
+34 silly audit   jiti: [ '2.4.2' ],
+34 silly audit   jmespath: [ '0.16.0' ],
+34 silly audit   jose: [ '2.0.7' ],
+34 silly audit   'js-tokens': [ '4.0.0' ],
+34 silly audit   'js-yaml': [ '4.1.0' ],
+34 silly audit   jsbn: [ '1.1.0' ],
+34 silly audit   'json-bigint': [ '1.0.0' ],
+34 silly audit   'json-buffer': [ '3.0.1' ],
+34 silly audit   'json-schema-traverse': [ '0.4.1' ],
+34 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+34 silly audit   json5: [ '1.0.2' ],
+34 silly audit   jsonwebtoken: [ '8.5.1' ],
+34 silly audit   jwa: [ '1.4.1', '2.0.0' ],
+34 silly audit   jws: [ '3.2.2', '4.0.0' ],
+34 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+34 silly audit   'jwks-rsa': [ '2.1.5' ],
+34 silly audit   kareem: [ '2.5.1' ],
+34 silly audit   keyv: [ '4.5.4' ],
+34 silly audit   'language-subtag-registry': [ '0.3.23' ],
+34 silly audit   'language-tags': [ '1.0.9' ],
+34 silly audit   levn: [ '0.4.1' ],
+34 silly audit   lightningcss: [ '1.29.2' ],
+34 silly audit   'lightningcss-darwin-arm64': [ '1.29.2' ],
+34 silly audit   'lightningcss-darwin-x64': [ '1.29.2' ],
+34 silly audit   'lightningcss-freebsd-x64': [ '1.29.2' ],
+34 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.29.2' ],
+34 silly audit   'lightningcss-linux-arm64-gnu': [ '1.29.2' ],
+34 silly audit   'lightningcss-linux-arm64-musl': [ '1.29.2' ],
+34 silly audit   'lightningcss-linux-x64-gnu': [ '1.29.2' ],
+34 silly audit   'lightningcss-linux-x64-musl': [ '1.29.2' ],
+34 silly audit   'lightningcss-win32-arm64-msvc': [ '1.29.2' ],
+34 silly audit   'lightningcss-win32-x64-msvc': [ '1.29.2' ],
+34 silly audit   limiter: [ '1.1.5' ],
+34 silly audit   'locate-path': [ '6.0.0' ],
+34 silly audit   'lodash.camelcase': [ '4.3.0' ],
+34 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+34 silly audit   'lodash.includes': [ '4.3.0' ],
+34 silly audit   'lodash.isboolean': [ '3.0.3' ],
+34 silly audit   'lodash.isinteger': [ '4.0.4' ],
+34 silly audit   'lodash.isnumber': [ '3.0.3' ],
+34 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+34 silly audit   'lodash.isstring': [ '4.0.1' ],
+34 silly audit   'lodash.merge': [ '4.6.2' ],
+34 silly audit   'lodash.once': [ '4.1.1' ],
+34 silly audit   'loose-envify': [ '1.4.0' ],
+34 silly audit   'lru-cache': [ '6.0.0' ],
+34 silly audit   'lru-memoizer': [ '2.3.0' ],
+34 silly audit   'make-dir': [ '3.1.0' ],
+34 silly audit   'math-intrinsics': [ '1.1.0' ],
+34 silly audit   'media-typer': [ '0.3.0' ],
+34 silly audit   'memory-pager': [ '1.5.0' ],
+34 silly audit   'merge-descriptors': [ '1.0.3' ],
+34 silly audit   merge2: [ '1.4.1' ],
+34 silly audit   methods: [ '1.1.2' ],
+34 silly audit   micromatch: [ '4.0.8' ],
+34 silly audit   mime: [ '3.0.0', '1.6.0' ],
+34 silly audit   'mime-db': [ '1.54.0', '1.52.0' ],
+34 silly audit   'mime-types': [ '2.1.35' ],
+34 silly audit   minimist: [ '1.2.8' ],
+34 silly audit   minizlib: [ '2.1.2' ],
+34 silly audit   mkdirp: [ '1.0.4' ],
+34 silly audit   mongodb: [ '4.17.2' ],
+34 silly audit   'mongodb-connection-string-url': [ '2.6.0' ],
+34 silly audit   mongoose: [ '6.13.8' ],
+34 silly audit   moongose: [ '1.0.0' ],
+34 silly audit   mpath: [ '0.9.0' ],
+34 silly audit   mquery: [ '4.0.3' ],
+34 silly audit   nanoid: [ '3.3.11' ],
+34 silly audit   'natural-compare': [ '1.4.0' ],
+34 silly audit   negotiator: [ '0.6.3' ],
+34 silly audit   next: [ '15.2.4' ],
+34 silly audit   postcss: [ '8.4.31', '8.5.3' ],
+34 silly audit   'node-addon-api': [ '5.1.0' ],
+34 silly audit   'node-fetch': [ '2.7.0' ],
+34 silly audit   tr46: [ '0.0.3', '3.0.0' ],
+34 silly audit   'webidl-conversions': [ '3.0.1', '7.0.0' ],
+34 silly audit   'whatwg-url': [ '5.0.0', '11.0.0' ],
+34 silly audit   'node-forge': [ '1.3.1' ],
+34 silly audit   nodemon: [ '2.0.22' ],
+34 silly audit   'supports-color': [ '5.5.0', '7.2.0' ],
+34 silly audit   nopt: [ '5.0.0' ],
+34 silly audit   'normalize-path': [ '3.0.0' ],
+34 silly audit   npmlog: [ '5.0.1' ],
+34 silly audit   oauth: [ '0.9.15', '0.10.2' ],
+34 silly audit   'object-assign': [ '4.1.1' ],
+34 silly audit   'object-hash': [ '3.0.0' ],
+34 silly audit   'object-inspect': [ '1.13.4' ],
+34 silly audit   'object-keys': [ '1.1.1' ],
+34 silly audit   'object.assign': [ '4.1.7' ],
+34 silly audit   'object.entries': [ '1.1.9' ],
+34 silly audit   'object.fromentries': [ '2.0.8' ],
+34 silly audit   'object.groupby': [ '1.0.3' ],
+34 silly audit   'object.values': [ '1.2.1' ],
+34 silly audit   'on-finished': [ '2.4.1' ],
+34 silly audit   'on-headers': [ '1.0.2' ],
+34 silly audit   once: [ '1.4.0' ],
+34 silly audit   optionator: [ '0.9.4' ],
+34 silly audit   'own-keys': [ '1.0.1' ],
+34 silly audit   'p-limit': [ '3.1.0' ],
+34 silly audit   'p-locate': [ '5.0.0' ],
+34 silly audit   'parent-module': [ '1.0.1' ],
+34 silly audit   parseurl: [ '1.3.3' ],
+34 silly audit   passport: [ '0.5.3' ],
+34 silly audit   'passport-google-oauth': [ '2.0.0' ],
+34 silly audit   'passport-google-oauth1': [ '1.0.0' ],
+34 silly audit   'passport-google-oauth20': [ '2.0.0' ],
+34 silly audit   'passport-oauth1': [ '1.3.0' ],
+34 silly audit   'passport-oauth2': [ '1.8.0' ],
+34 silly audit   'passport-strategy': [ '1.0.0' ],
+34 silly audit   'path-exists': [ '4.0.0' ],
+34 silly audit   'path-is-absolute': [ '1.0.1' ],
+34 silly audit   'path-key': [ '3.1.1' ],
+34 silly audit   'path-parse': [ '1.0.7' ],
+34 silly audit   'path-to-regexp': [ '0.1.12' ],
+34 silly audit   pause: [ '0.0.1' ],
+34 silly audit   picocolors: [ '1.1.1' ],
+34 silly audit   picomatch: [ '2.3.1', '4.0.2' ],
+34 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+34 silly audit   'prelude-ls': [ '1.2.1' ],
+34 silly audit   'prop-types': [ '15.8.1' ],
+34 silly audit   'proto3-json-serializer': [ '0.1.9' ],
+34 silly audit   'proxy-addr': [ '2.0.7' ],
+34 silly audit   'pstree.remy': [ '1.1.8' ],
+34 silly audit   pump: [ '3.0.2' ],
+34 silly audit   pumpify: [ '2.0.1' ],
+34 silly audit   qs: [ '6.13.0' ],
+34 silly audit   querystring: [ '0.2.0' ],
+34 silly audit   'queue-microtask': [ '1.2.3' ],
+34 silly audit   'random-bytes': [ '1.0.0' ],
+34 silly audit   'range-parser': [ '1.2.1' ],
+34 silly audit   'raw-body': [ '2.5.2' ],
+34 silly audit   react: [ '19.1.0' ],
+34 silly audit   'react-dom': [ '19.1.0' ],
+34 silly audit   'react-is': [ '16.13.1' ],
+34 silly audit   'readable-stream': [ '3.6.2' ],
+34 silly audit   readdirp: [ '3.6.0' ],
+34 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+34 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+34 silly audit   'require-directory': [ '2.1.1' ],
+34 silly audit   'resolve-from': [ '4.0.0' ],
+34 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+34 silly audit   retry: [ '0.13.1' ],
+34 silly audit   'retry-request': [ '4.2.2' ],
+34 silly audit   reusify: [ '1.1.0' ],
+34 silly audit   rimraf: [ '3.0.2' ],
+34 silly audit   'run-parallel': [ '1.2.0' ],
+34 silly audit   'safe-array-concat': [ '1.1.3' ],
+34 silly audit   'safe-buffer': [ '5.2.1' ],
+34 silly audit   'safe-push-apply': [ '1.0.0' ],
+34 silly audit   'safe-regex-test': [ '1.1.0' ],
+34 silly audit   'safer-buffer': [ '2.1.2' ],
+34 silly audit   sax: [ '1.2.1' ],
+34 silly audit   scheduler: [ '0.26.0' ],
+34 silly audit   send: [ '0.19.0' ],
+34 silly audit   'serve-static': [ '1.16.2' ],
+34 silly audit   'set-blocking': [ '2.0.0' ],
+34 silly audit   'set-function-length': [ '1.2.2' ],
+34 silly audit   'set-function-name': [ '2.0.2' ],
+34 silly audit   'set-proto': [ '1.0.0' ],
+34 silly audit   setprototypeof: [ '1.2.0' ],
+34 silly audit   sharp: [ '0.33.5' ],
+34 silly audit   'shebang-command': [ '2.0.0' ],
+34 silly audit   'shebang-regex': [ '3.0.0' ],
+34 silly audit   'side-channel': [ '1.1.0' ],
+34 silly audit   'side-channel-list': [ '1.0.0' ],
+34 silly audit   'side-channel-map': [ '1.0.1' ],
+34 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+34 silly audit   sift: [ '16.0.1' ],
+34 silly audit   'signal-exit': [ '3.0.7' ],
+34 silly audit   'simple-swizzle': [ '0.2.2' ],
+34 silly audit   'simple-update-notifier': [ '1.1.0' ],
+34 silly audit   'smart-buffer': [ '4.2.0' ],
+34 silly audit   socks: [ '2.8.4' ],
+34 silly audit   'source-map-js': [ '1.2.1' ],
+34 silly audit   'sparse-bitfield': [ '3.0.3' ],
+34 silly audit   'sprintf-js': [ '1.1.3' ],
+34 silly audit   'stable-hash': [ '0.0.5' ],
+34 silly audit   statuses: [ '2.0.1' ],
+34 silly audit   'stream-events': [ '1.0.5' ],
+34 silly audit   'stream-shift': [ '1.0.3' ],
+34 silly audit   streamsearch: [ '1.1.0' ],
+34 silly audit   string_decoder: [ '1.3.0' ],
+34 silly audit   'string-width': [ '4.2.3' ],
+34 silly audit   'string.prototype.includes': [ '2.0.1' ],
+34 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+34 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+34 silly audit   'string.prototype.trim': [ '1.2.10' ],
+34 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+34 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+34 silly audit   'strip-ansi': [ '6.0.1' ],
+34 silly audit   'strip-bom': [ '3.0.0' ],
+34 silly audit   'strip-json-comments': [ '3.1.1' ],
+34 silly audit   strnum: [ '1.1.2' ],
+34 silly audit   stubs: [ '3.0.0' ],
+34 silly audit   'styled-jsx': [ '5.1.6' ],
+34 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+34 silly audit   tailwindcss: [ '4.1.0' ],
+34 silly audit   tapable: [ '2.2.1' ],
+34 silly audit   tar: [ '6.2.1' ],
+34 silly audit   'teeny-request': [ '7.2.0' ],
+34 silly audit   'text-decoding': [ '1.0.0' ],
+34 silly audit   tinyglobby: [ '0.2.12' ],
+34 silly audit   fdir: [ '6.4.3' ],
+34 silly audit   'to-regex-range': [ '5.0.1' ],
+34 silly audit   toidentifier: [ '1.0.1' ],
+34 silly audit   touch: [ '3.1.1' ],
+34 silly audit   'ts-api-utils': [ '2.1.0' ],
+34 silly audit   'tsconfig-paths': [ '3.15.0' ],
+34 silly audit   tslib: [ '2.8.1' ],
+34 silly audit   'type-check': [ '0.4.0' ],
+34 silly audit   'type-is': [ '1.6.18' ],
+34 silly audit   'typed-array-buffer': [ '1.0.3' ],
+34 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+34 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+34 silly audit   'typed-array-length': [ '1.0.7' ],
+34 silly audit   'typedarray-to-buffer': [ '3.1.5' ],
+34 silly audit   typescript: [ '5.8.2' ],
+34 silly audit   'uid-safe': [ '2.1.5' ],
+34 silly audit   uid2: [ '0.0.4' ],
+34 silly audit   'unbox-primitive': [ '1.1.0' ],
+34 silly audit   undefsafe: [ '2.0.5' ],
+34 silly audit   'undici-types': [ '6.20.0' ],
+34 silly audit   'unique-string': [ '2.0.0' ],
+34 silly audit   unpipe: [ '1.0.0' ],
+34 silly audit   'unrs-resolver': [ '1.3.3' ],
+34 silly audit   'uri-js': [ '4.4.1' ],
+34 silly audit   url: [ '0.10.3' ],
+34 silly audit   util: [ '0.12.5' ],
+34 silly audit   'util-deprecate': [ '1.0.2' ],
+34 silly audit   'utils-merge': [ '1.0.1' ],
+34 silly audit   vary: [ '1.1.2' ],
+34 silly audit   'websocket-driver': [ '0.7.4' ],
+34 silly audit   'websocket-extensions': [ '0.1.4' ],
+34 silly audit   which: [ '2.0.2' ],
+34 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+34 silly audit   'which-builtin-type': [ '1.2.1' ],
+34 silly audit   'which-collection': [ '1.0.2' ],
+34 silly audit   'which-typed-array': [ '1.1.19' ],
+34 silly audit   'wide-align': [ '1.1.5' ],
+34 silly audit   'word-wrap': [ '1.2.5' ],
+34 silly audit   'wrap-ansi': [ '7.0.0' ],
+34 silly audit   wrappy: [ '1.0.2' ],
+34 silly audit   'write-file-atomic': [ '3.0.3' ],
+34 silly audit   'xdg-basedir': [ '4.0.0' ],
+34 silly audit   xml2js: [ '0.6.2' ],
+34 silly audit   xmlbuilder: [ '11.0.1' ],
+34 silly audit   y18n: [ '5.0.8' ],
+34 silly audit   yallist: [ '4.0.0' ],
+34 silly audit   'yocto-queue': [ '0.1.0' ],
+34 silly audit   'react-toastify': [ '9.1.3' ],
+34 silly audit   clsx: [ '1.2.1' ]
+34 silly audit }
+35 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\lightningcss-win32-arm64-msvc
+36 silly reify mark deleted [
+36 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\lightningcss-win32-arm64-msvc'
+36 silly reify ]
+37 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\lightningcss-linux-x64-musl
+38 silly reify mark deleted [
+38 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\lightningcss-linux-x64-musl'
+38 silly reify ]
+39 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\lightningcss-linux-x64-gnu
+40 silly reify mark deleted [
+40 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\lightningcss-linux-x64-gnu'
+40 silly reify ]
+41 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\lightningcss-linux-arm64-musl
+42 silly reify mark deleted [
+42 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\lightningcss-linux-arm64-musl'
+42 silly reify ]
+43 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\lightningcss-linux-arm64-gnu
+44 silly reify mark deleted [
+44 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\lightningcss-linux-arm64-gnu'
+44 silly reify ]
+45 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\lightningcss-linux-arm-gnueabihf
+46 silly reify mark deleted [
+46 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\lightningcss-linux-arm-gnueabihf'
+46 silly reify ]
+47 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\lightningcss-freebsd-x64
+48 silly reify mark deleted [
+48 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\lightningcss-freebsd-x64'
+48 silly reify ]
+49 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\lightningcss-darwin-x64
+50 silly reify mark deleted [
+50 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\lightningcss-darwin-x64'
+50 silly reify ]
+51 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\lightningcss-darwin-arm64
+52 silly reify mark deleted [
+52 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\lightningcss-darwin-arm64'
+52 silly reify ]
+53 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\fsevents
+54 silly reify mark deleted [ 'E:\\task manager app\\task-management-app\\node_modules\\fsevents' ]
+55 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-win32-ia32-msvc
+56 silly reify mark deleted [
+56 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc'
+56 silly reify ]
+57 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-win32-arm64-msvc
+58 silly reify mark deleted [
+58 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc'
+58 silly reify ]
+59 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-wasm32-wasi
+60 silly reify mark deleted [
+60 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-wasm32-wasi'
+60 silly reify ]
+61 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@napi-rs\wasm-runtime
+62 silly reify mark deleted [
+62 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@napi-rs\\wasm-runtime'
+62 silly reify ]
+63 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@emnapi\core
+64 silly reify mark deleted [
+64 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@emnapi\\core'
+64 silly reify ]
+65 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tybys\wasm-util
+66 silly reify mark deleted [
+66 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tybys\\wasm-util'
+66 silly reify ]
+67 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@emnapi\wasi-threads
+68 silly reify mark deleted [
+68 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@emnapi\\wasi-threads'
+68 silly reify ]
+69 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-linux-x64-musl
+70 silly reify mark deleted [
+70 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-linux-x64-musl'
+70 silly reify ]
+71 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-linux-x64-gnu
+72 silly reify mark deleted [
+72 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu'
+72 silly reify ]
+73 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-linux-s390x-gnu
+74 silly reify mark deleted [
+74 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu'
+74 silly reify ]
+75 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-linux-ppc64-gnu
+76 silly reify mark deleted [
+76 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu'
+76 silly reify ]
+77 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-linux-arm64-musl
+78 silly reify mark deleted [
+78 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl'
+78 silly reify ]
+79 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-linux-arm64-gnu
+80 silly reify mark deleted [
+80 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu'
+80 silly reify ]
+81 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-linux-arm-musleabihf
+82 silly reify mark deleted [
+82 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf'
+82 silly reify ]
+83 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-linux-arm-gnueabihf
+84 silly reify mark deleted [
+84 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf'
+84 silly reify ]
+85 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-freebsd-x64
+86 silly reify mark deleted [
+86 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-freebsd-x64'
+86 silly reify ]
+87 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-darwin-x64
+88 silly reify mark deleted [
+88 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-darwin-x64'
+88 silly reify ]
+89 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@unrs\resolver-binding-darwin-arm64
+90 silly reify mark deleted [
+90 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@unrs\\resolver-binding-darwin-arm64'
+90 silly reify ]
+91 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+92 silly reify mark deleted [
+92 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+92 silly reify ]
+93 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-linux-x64-musl
+94 silly reify mark deleted [
+94 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+94 silly reify ]
+95 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-linux-x64-gnu
+96 silly reify mark deleted [
+96 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+96 silly reify ]
+97 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-linux-arm64-musl
+98 silly reify mark deleted [
+98 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+98 silly reify ]
+99 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+100 silly reify mark deleted [
+100 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+100 silly reify ]
+101 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+102 silly reify mark deleted [
+102 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+102 silly reify ]
+103 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-freebsd-x64
+104 silly reify mark deleted [
+104 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+104 silly reify ]
+105 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-darwin-x64
+106 silly reify mark deleted [
+106 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+106 silly reify ]
+107 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-darwin-arm64
+108 silly reify mark deleted [
+108 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+108 silly reify ]
+109 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@tailwindcss\oxide-android-arm64
+110 silly reify mark deleted [
+110 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@tailwindcss\\oxide-android-arm64'
+110 silly reify ]
+111 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@next\swc-win32-arm64-msvc
+112 silly reify mark deleted [
+112 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@next\\swc-win32-arm64-msvc'
+112 silly reify ]
+113 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@next\swc-linux-x64-musl
+114 silly reify mark deleted [
+114 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@next\\swc-linux-x64-musl'
+114 silly reify ]
+115 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@next\swc-linux-x64-gnu
+116 silly reify mark deleted [
+116 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@next\\swc-linux-x64-gnu'
+116 silly reify ]
+117 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@next\swc-linux-arm64-musl
+118 silly reify mark deleted [
+118 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@next\\swc-linux-arm64-musl'
+118 silly reify ]
+119 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@next\swc-linux-arm64-gnu
+120 silly reify mark deleted [
+120 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@next\\swc-linux-arm64-gnu'
+120 silly reify ]
+121 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@next\swc-darwin-x64
+122 silly reify mark deleted [
+122 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@next\\swc-darwin-x64'
+122 silly reify ]
+123 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@next\swc-darwin-arm64
+124 silly reify mark deleted [
+124 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@next\\swc-darwin-arm64'
+124 silly reify ]
+125 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-win32-ia32
+126 silly reify mark deleted [
+126 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-win32-ia32'
+126 silly reify ]
+127 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-wasm32
+128 silly reify mark deleted [
+128 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-wasm32'
+128 silly reify ]
+129 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-linuxmusl-x64
+130 silly reify mark deleted [
+130 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-linuxmusl-x64'
+130 silly reify ]
+131 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-linuxmusl-arm64
+132 silly reify mark deleted [
+132 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-linuxmusl-arm64'
+132 silly reify ]
+133 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-linux-x64
+134 silly reify mark deleted [
+134 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-linux-x64'
+134 silly reify ]
+135 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-linux-s390x
+136 silly reify mark deleted [
+136 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-linux-s390x'
+136 silly reify ]
+137 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-linux-arm64
+138 silly reify mark deleted [
+138 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-linux-arm64'
+138 silly reify ]
+139 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-linux-arm
+140 silly reify mark deleted [
+140 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-linux-arm'
+140 silly reify ]
+141 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-libvips-linuxmusl-x64
+142 silly reify mark deleted [
+142 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+142 silly reify ]
+143 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-libvips-linuxmusl-arm64
+144 silly reify mark deleted [
+144 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+144 silly reify ]
+145 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-libvips-linux-x64
+146 silly reify mark deleted [
+146 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-libvips-linux-x64'
+146 silly reify ]
+147 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-libvips-linux-s390x
+148 silly reify mark deleted [
+148 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-libvips-linux-s390x'
+148 silly reify ]
+149 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-libvips-linux-arm64
+150 silly reify mark deleted [
+150 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-libvips-linux-arm64'
+150 silly reify ]
+151 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-libvips-linux-arm
+152 silly reify mark deleted [
+152 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-libvips-linux-arm'
+152 silly reify ]
+153 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-libvips-darwin-x64
+154 silly reify mark deleted [
+154 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-libvips-darwin-x64'
+154 silly reify ]
+155 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-libvips-darwin-arm64
+156 silly reify mark deleted [
+156 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+156 silly reify ]
+157 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-darwin-x64
+158 silly reify mark deleted [
+158 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-darwin-x64'
+158 silly reify ]
+159 verbose reify failed optional dependency E:\task manager app\task-management-app\node_modules\@img\sharp-darwin-arm64
+160 silly reify mark deleted [
+160 silly reify   'E:\\task manager app\\task-management-app\\node_modules\\@img\\sharp-darwin-arm64'
+160 silly reify ]
+161 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-1.2.1.tgz 0ms (cache hit)
+162 http cache react-toastify@https://registry.npmjs.org/react-toastify/-/react-toastify-9.1.3.tgz 0ms (cache hit)
+163 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.9.0.tgz 0ms (cache hit)
+164 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.8.tgz 0ms (cache hit)
+165 http cache @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.0.1.tgz 0ms (cache hit)
+166 http cache @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.4.0.tgz 0ms (cache hit)
+167 silly tarball no local data for clsx@https://registry.npmjs.org/clsx/-/clsx-1.2.1.tgz. Extracting by manifest.
+168 silly tarball no local data for react-toastify@https://registry.npmjs.org/react-toastify/-/react-toastify-9.1.3.tgz. Extracting by manifest.
+169 http fetch GET 200 https://registry.npmjs.org/clsx/-/clsx-1.2.1.tgz 169ms (cache miss)
+170 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 331ms
+171 silly audit report {
+171 silly audit report   '@google-cloud/firestore': [
+171 silly audit report     {
+171 silly audit report       id: 1100423,
+171 silly audit report       url: 'https://github.com/advisories/GHSA-4g6q-77j7-vvjc',
+171 silly audit report       title: 'Logging of the firestore key within nodejs-firestore',
+171 silly audit report       severity: 'moderate',
+171 silly audit report       vulnerable_versions: '<6.1.0',
+171 silly audit report       cwe: [Array],
+171 silly audit report       cvss: [Object]
+171 silly audit report     }
+171 silly audit report   ],
+171 silly audit report   '@grpc/grpc-js': [
+171 silly audit report     {
+171 silly audit report       id: 1097546,
+171 silly audit report       url: 'https://github.com/advisories/GHSA-7v5v-9h63-cj86',
+171 silly audit report       title: '@grpc/grpc-js can allocate memory for incoming messages well above configured limits',
+171 silly audit report       severity: 'moderate',
+171 silly audit report       vulnerable_versions: '<1.8.22',
+171 silly audit report       cwe: [Array],
+171 silly audit report       cvss: [Object]
+171 silly audit report     }
+171 silly audit report   ],
+171 silly audit report   protobufjs: [
+171 silly audit report     {
+171 silly audit report       id: 1097723,
+171 silly audit report       url: 'https://github.com/advisories/GHSA-h755-8qp9-cq85',
+171 silly audit report       title: 'protobufjs Prototype Pollution vulnerability',
+171 silly audit report       severity: 'critical',
+171 silly audit report       vulnerable_versions: '>=6.10.0 <6.11.4',
+171 silly audit report       cwe: [Array],
+171 silly audit report       cvss: [Object]
+171 silly audit report     }
+171 silly audit report   ],
+171 silly audit report   semver: [
+171 silly audit report     {
+171 silly audit report       id: 1101088,
+171 silly audit report       url: 'https://github.com/advisories/GHSA-c2qf-rxjj-qqgw',
+171 silly audit report       title: 'semver vulnerable to Regular Expression Denial of Service',
+171 silly audit report       severity: 'high',
+171 silly audit report       vulnerable_versions: '>=7.0.0 <7.5.2',
+171 silly audit report       cwe: [Array],
+171 silly audit report       cvss: [Object]
+171 silly audit report     }
+171 silly audit report   ],
+171 silly audit report   jsonwebtoken: [
+171 silly audit report     {
+171 silly audit report       id: 1102458,
+171 silly audit report       url: 'https://github.com/advisories/GHSA-qwph-4952-7xr6',
+171 silly audit report       title: 'jsonwebtoken vulnerable to signature validation bypass due to insecure default algorithm in jwt.verify()',
+171 silly audit report       severity: 'moderate',
+171 silly audit report       vulnerable_versions: '<9.0.0',
+171 silly audit report       cwe: [Array],
+171 silly audit report       cvss: [Object]
+171 silly audit report     },
+171 silly audit report     {
+171 silly audit report       id: 1097690,
+171 silly audit report       url: 'https://github.com/advisories/GHSA-8cf7-32gw-wr33',
+171 silly audit report       title: 'jsonwebtoken unrestricted key type could lead to legacy keys usage ',
+171 silly audit report       severity: 'high',
+171 silly audit report       vulnerable_versions: '<=8.5.1',
+171 silly audit report       cwe: [Array],
+171 silly audit report       cvss: [Object]
+171 silly audit report     },
+171 silly audit report     {
+171 silly audit report       id: 1097694,
+171 silly audit report       url: 'https://github.com/advisories/GHSA-hjrf-2m68-5959',
+171 silly audit report       title: "jsonwebtoken's insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC",
+171 silly audit report       severity: 'moderate',
+171 silly audit report       vulnerable_versions: '<=8.5.1',
+171 silly audit report       cwe: [Array],
+171 silly audit report       cvss: [Object]
+171 silly audit report     }
+171 silly audit report   ],
+171 silly audit report   passport: [
+171 silly audit report     {
+171 silly audit report       id: 1093639,
+171 silly audit report       url: 'https://github.com/advisories/GHSA-v923-w3x8-wh69',
+171 silly audit report       title: 'Passport vulnerable to session regeneration when a users logs in or out',
+171 silly audit report       severity: 'moderate',
+171 silly audit report       vulnerable_versions: '<0.6.0',
+171 silly audit report       cwe: [Array],
+171 silly audit report       cvss: [Object]
+171 silly audit report     }
+171 silly audit report   ]
+171 silly audit report }
+172 silly packumentCache corgi:https://registry.npmjs.org/@google-cloud%2ffirestore cache-miss
+173 silly packumentCache corgi:https://registry.npmjs.org/@grpc%2fgrpc-js cache-miss
+174 silly packumentCache corgi:https://registry.npmjs.org/protobufjs cache-miss
+175 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+176 silly packumentCache corgi:https://registry.npmjs.org/jsonwebtoken cache-miss
+177 silly packumentCache corgi:https://registry.npmjs.org/passport cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/protobufjs 225ms (cache updated)
+179 silly packumentCache corgi:https://registry.npmjs.org/protobufjs set size:undefined disposed:false
+180 http fetch GET 200 https://registry.npmjs.org/passport 238ms (cache updated)
+181 silly packumentCache corgi:https://registry.npmjs.org/passport set size:undefined disposed:false
+182 http fetch GET 200 https://registry.npmjs.org/jsonwebtoken 250ms (cache updated)
+183 silly packumentCache corgi:https://registry.npmjs.org/jsonwebtoken set size:undefined disposed:false
+184 http fetch GET 200 https://registry.npmjs.org/semver 268ms (cache updated)
+185 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+186 http fetch GET 200 https://registry.npmjs.org/react-toastify/-/react-toastify-9.1.3.tgz 737ms (cache miss)
+187 http fetch GET 200 https://registry.npmjs.org/@google-cloud%2ffirestore 1166ms (cache updated)
+188 silly packumentCache corgi:https://registry.npmjs.org/@google-cloud%2ffirestore set size:undefined disposed:false
+189 http fetch GET 200 https://registry.npmjs.org/@grpc%2fgrpc-js 1212ms (cache updated)
+190 silly packumentCache corgi:https://registry.npmjs.org/@grpc%2fgrpc-js set size:undefined disposed:false
+191 silly packumentCache corgi:https://registry.npmjs.org/firebase-admin cache-miss
+192 http fetch GET 200 https://registry.npmjs.org/firebase-admin 84ms (cache updated)
+193 silly packumentCache corgi:https://registry.npmjs.org/firebase-admin set size:undefined disposed:false
+194 silly packumentCache corgi:https://registry.npmjs.org/google-gax cache-miss
+195 http fetch GET 200 https://registry.npmjs.org/google-gax 108ms (cache updated)
+196 silly packumentCache corgi:https://registry.npmjs.org/google-gax set size:undefined disposed:false
+197 silly packumentCache corgi:https://registry.npmjs.org/simple-update-notifier cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/simple-update-notifier 77ms (cache updated)
+199 silly packumentCache corgi:https://registry.npmjs.org/simple-update-notifier set size:undefined disposed:false
+200 silly packumentCache corgi:https://registry.npmjs.org/moongose cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/moongose 903ms (cache updated)
+202 silly packumentCache corgi:https://registry.npmjs.org/moongose set size:undefined disposed:false
+203 silly packumentCache corgi:https://registry.npmjs.org/nodemon cache-miss
+204 http fetch GET 200 https://registry.npmjs.org/nodemon 99ms (cache updated)
+205 silly packumentCache corgi:https://registry.npmjs.org/nodemon set size:undefined disposed:false
+206 silly ADD node_modules/clsx
+207 silly ADD node_modules/react-toastify
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD
+215 silly ADD
+216 silly ADD
+217 silly ADD
+218 silly ADD
+219 silly ADD
+220 silly ADD
+221 silly ADD
+222 silly ADD
+223 silly ADD
+224 silly ADD
+225 silly ADD
+226 silly ADD
+227 silly ADD
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 silly ADD
+232 silly ADD
+233 silly ADD
+234 silly ADD
+235 silly ADD
+236 silly ADD
+237 silly ADD
+238 silly ADD
+239 silly ADD
+240 silly ADD
+241 silly ADD
+242 silly ADD
+243 silly ADD
+244 silly ADD
+245 silly ADD
+246 silly ADD
+247 silly ADD
+248 silly ADD
+249 silly ADD
+250 silly ADD
+251 silly ADD
+252 silly ADD
+253 silly ADD
+254 silly ADD
+255 silly ADD
+256 silly ADD
+257 silly ADD
+258 silly ADD
+259 silly ADD
+260 silly ADD
+261 silly ADD
+262 silly ADD
+263 silly ADD
+264 silly ADD
+265 silly ADD
+266 silly ADD
+267 silly ADD
+268 silly ADD
+269 silly ADD
+270 silly ADD
+271 verbose cwd E:\task manager app\task-management-app
+272 verbose os Windows_NT 10.0.19045
+273 verbose node v22.14.0
+274 verbose npm  v11.1.0
+275 verbose exit 0
+276 info ok

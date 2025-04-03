@@ -1,0 +1,6 @@
+{
+  "/api/tasks/[id]/route": "app/api/tasks/[id]/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/tasklist/page": "app/tasklist/page.js"
+}
