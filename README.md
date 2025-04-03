@@ -1,40 +1,34 @@
-<!-- <<<<<<< HEAD
-# Task_management_app
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Task Management App
 
-## Getting Started
+This is a Task Management application built with **Next.js** and **React** for the frontend, and **MongoDB** for the database. In this app, users can create tasks, view all tasks, filter tasks by their status (completed, pending, or all), and update or delete tasks. The application uses **MongoDB Atlas** for production and **MongoDB Compass** for local development.
 
-First, run the development server:
+## Features
+
+- **Create Tasks**: Add tasks with a **title**, **description**, **due date**, and **priority** (high, medium, low).
+- **View Tasks**: See a list of all tasks, with task details visible.
+- **Filter Tasks**: Filter tasks by their status: 
+  - Completed
+  - Pending
+  - All tasks
+- **Mark Tasks as Completed**: Mark a task as completed by clicking the "Completed" button.
+- **Delete Tasks**: Delete tasks that are no longer needed.
+
+## Tech Stack
+
+- **Frontend**: 
+  - Next.js
+  - React
+- **Backend**: 
+  - MongoDB (using Mongoose for database interaction)
+  - MongoDB Atlas (for production)
+  - MongoDB Compass (for local development)
+  
+## Setup
+
+### 1. Clone the Repository
+
+Clone this repository to your local machine:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 65e71b4 (final commit) -->
+git clone https://github.com/your-princekafle/task-management-app.git
+cd task-management-app
