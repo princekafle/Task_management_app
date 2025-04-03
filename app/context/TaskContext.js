@@ -11,7 +11,7 @@ const TaskProvider = ({ children }) => {
     fetchTasks();
   }, []);
   const fetchTasks = (status = "all") => {
-    fetch(`http://localhost:3000/api/tasks/[id]?status=${status}`, {
+    fetch(`api/tasks/[id]?status=${status}`, {
       method: "GET",
     })
       .then((response) => response.json())
@@ -24,7 +24,7 @@ const TaskProvider = ({ children }) => {
   };
 
   const addTask = (task) => {
-    fetch("http://localhost:3000/api/tasks/[id]", {
+    fetch("api/tasks/[id]", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(task),
@@ -41,7 +41,7 @@ const TaskProvider = ({ children }) => {
   };
 
   const updateTask = (id, updatedFields) => {
-    fetch(`http://localhost:3000/api/tasks/${id}`, {
+    fetch(`api/tasks/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updatedFields),
@@ -57,7 +57,7 @@ const TaskProvider = ({ children }) => {
 
   const deleteTask = (id) => {
     if (!confirm("Are you sure you want to delete this task?")) return;
-    fetch(`http://localhost:3000/api/tasks/${id}`, {
+    fetch(`api/tasks/${id}`, {
       method: "DELETE",
     
       // body: JSON.stringify({ id, confirm: true }), // Send the id and confirm field 
